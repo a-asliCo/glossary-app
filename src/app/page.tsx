@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Modal from "react-modal";
 
 type Term = { id: string; title: string; description: string };
 
