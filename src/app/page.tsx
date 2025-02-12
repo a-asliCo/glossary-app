@@ -92,7 +92,6 @@ export default function Home() {
         )}
       </div>
 
-      {/* Add New Term Modal */}
 {isAddModalOpen && (
   <div
     className="modal fixed inset-0 flex items-center justify-center"
@@ -129,7 +128,7 @@ export default function Home() {
   </div>
 )}
 
-{/* View Term Modal (Shows term details & delete button) */}
+
 {selectedTerm && (
   <div
     className="modal fixed inset-0 flex items-center justify-center"
