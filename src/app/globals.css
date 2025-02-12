@@ -78,13 +78,21 @@ nav a {
   @apply bg-gray-900 p-6 rounded-lg shadow-lg w-96 text-center;
 }
 
-/* Footer */
+/* Footer Styling */
 footer {
-  @apply bg-gray-900 text-gray-300 text-center p-6 mt-10 shadow-md;
+  @apply bg-gray-900 text-gray-300 text-center p-6 shadow-md;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 footer a {
   @apply text-gray-400 hover:text-gray-200 transition-all mx-2;
+}
+
+footer p {
+  @apply text-gray-600 justify-between;
 }
 
 footer div {
