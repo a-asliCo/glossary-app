@@ -103,6 +103,7 @@ export default function Home() {
       onClick={(e) => e.stopPropagation()} // Clicking inside does NOT close it
     >
       <h2 className="text-xl font-bold mb-4">Add New Key Term</h2>
+      <br />
       <form onSubmit={handleSubmit} className="space-y-4">
         <input
           type="text"
