@@ -59,6 +59,7 @@ export default function Home() {
   return (
     <div className="container">
       <h2 className="text-3xl font-bold mb-6 text-center">Glossary</h2>
+      <br />
 
       {/* Add New Key Term Button */}
       <button className="primary mb-4 w-full" onClick={() => setIsAddModalOpen(true)}>
