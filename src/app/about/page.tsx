@@ -9,7 +9,7 @@ export default function About() {
       </p>
       <br />
         <h3 className="text-3xl font-bold">Explore Words from the Letters Library 🌠:</h3>
-        <p className="text-lg text-gray-600 mt-4">Watch words come alive as they move freely across the screen, symbolizing the fluidity of ideas. Hover over any word to pause its motion and learn more about it.</p>
+        <p className="text-lg text-gray-600 mt-4">You can browse terms by selecting a letter from the A-Z menu.</p>
         <br />
         <h3 className="text-3xl font-bold">Dive Deeper 🤿:</h3>
         <p className="text-lg text-gray-600 mt-4">Clicking on a word opens a Display Popup, where you can view its full details and meaning. You can also edit the word if there&apos;s more to add or delete it if it&apos;s no longer needed.</p>
